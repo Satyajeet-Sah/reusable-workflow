@@ -2,6 +2,12 @@ name: Common Python CI
 
 on:
   workflow_call:
+    inputs:
+      python-version:
+        description: "python version to use"
+        required: false
+        type: string
+        default: "3.12"
 
 jobs:
   python-ci:
