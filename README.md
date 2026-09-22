@@ -161,8 +161,11 @@ python-project-3 ──┼──> reusable-workflow
 python-project-4 ──┤
 python-project-5 ──┘
 ```
-
 This avoids duplicating the same CI configuration in every repository.
-## Related Repository
 
-[reusable-caller-workflow-python](https://github.com/Satyajeet-Sah/reusable-caller-workflow-python)
+## Caller Repository
+
+This reusable workflow is used by the repository below:
+
+[resuable-caller-workflow-python](https://github.com/Satyajeet-Sah/resuable-caller-workflow-python)
+
