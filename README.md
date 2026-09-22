@@ -163,7 +163,6 @@ python-project-5 ──┘
 ```
 
 This avoids duplicating the same CI configuration in every repository.
+## Related Repository
 
-## Repository
-
-`Satyajeet-Sah/reusable-workflow`
+[reusable-caller-workflow-python](https://github.com/Satyajeet-Sah/reusable-caller-workflow-python)
