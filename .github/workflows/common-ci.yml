@@ -25,7 +25,7 @@ jobs:
           echo "-------------------"
           ls -la
           echo "--------------------"
-          find . -maxdepth 2 - type f
+          find . -maxdepth 2 -type f
 
       - name: Run tests
         run: PYTHONPATH=. pytest
